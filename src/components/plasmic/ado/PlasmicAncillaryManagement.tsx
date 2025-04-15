@@ -104,7 +104,7 @@ type ArgPropType = keyof PlasmicAncillaryManagement__ArgsType;
 export const PlasmicAncillaryManagement__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicAncillaryManagement__OverridesType = {
-  root?: Flex__<"div">;
+  ancillaryManagement?: Flex__<"div">;
   airlineDashboardOption82?: Flex__<"div">;
   rectangle8270?: Flex__<"div">;
   frame1597882288?: Flex__<"div">;
@@ -274,8 +274,8 @@ function PlasmicAncillaryManagement__RenderFunc(props: {
     <React.Fragment>
       <div className={projectcss.plasmic_page_wrapper}>
         <div
-          data-plasmic-name={"root"}
-          data-plasmic-override={overrides.root}
+          data-plasmic-name={"ancillaryManagement"}
+          data-plasmic-override={overrides.ancillaryManagement}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
           className={classNames(
@@ -284,7 +284,7 @@ function PlasmicAncillaryManagement__RenderFunc(props: {
             projectcss.plasmic_default_styles,
             projectcss.plasmic_mixins,
             projectcss.plasmic_tokens,
-            sty.root
+            sty.ancillaryManagement
           )}
         >
           <div
@@ -489,7 +489,7 @@ function PlasmicAncillaryManagement__RenderFunc(props: {
 
                     $steps["goToDashboard"] = true
                       ? (() => {
-                          const actionArgs = { destination: `/dashboard` };
+                          const actionArgs = { destination: `/` };
                           return (({ destination }) => {
                             if (
                               typeof destination === "string" &&
@@ -560,6 +560,9 @@ function PlasmicAncillaryManagement__RenderFunc(props: {
                         projectcss.__wab_text,
                         sty.messages
                       )}
+                      onClick={async event => {
+                        const $steps = {};
+                      }}
                     >
                       {"Ancillary Management"}
                     </div>
@@ -2198,8 +2201,8 @@ function PlasmicAncillaryManagement__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: [
-    "root",
+  ancillaryManagement: [
+    "ancillaryManagement",
     "airlineDashboardOption82",
     "rectangle8270",
     "frame1597882288",
@@ -2859,7 +2862,7 @@ type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
-  root: "div";
+  ancillaryManagement: "div";
   airlineDashboardOption82: "div";
   rectangle8270: "div";
   frame1597882288: "div";
@@ -3038,7 +3041,7 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
       forNode: nodeName
     });
   };
-  if (nodeName === "root") {
+  if (nodeName === "ancillaryManagement") {
     func.displayName = "PlasmicAncillaryManagement";
   } else {
     func.displayName = `PlasmicAncillaryManagement.${nodeName}`;
@@ -3048,7 +3051,7 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
 
 export const PlasmicAncillaryManagement = Object.assign(
   // Top-level PlasmicAncillaryManagement renders the root element
-  makeNodeComponent("root"),
+  makeNodeComponent("ancillaryManagement"),
   {
     // Helper components rendering sub-elements
     airlineDashboardOption82: makeNodeComponent("airlineDashboardOption82"),

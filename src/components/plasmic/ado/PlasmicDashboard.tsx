@@ -117,7 +117,7 @@ type ArgPropType = keyof PlasmicDashboard__ArgsType;
 export const PlasmicDashboard__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicDashboard__OverridesType = {
-  root?: Flex__<"div">;
+  dashboard?: Flex__<"div">;
   airlineDashboardOption77?: Flex__<"div">;
   rectangle8271?: Flex__<"div">;
   rectangle8274?: Flex__<"div">;
@@ -436,8 +436,8 @@ function PlasmicDashboard__RenderFunc(props: {
     <React.Fragment>
       <div className={projectcss.plasmic_page_wrapper}>
         <div
-          data-plasmic-name={"root"}
-          data-plasmic-override={overrides.root}
+          data-plasmic-name={"dashboard"}
+          data-plasmic-override={overrides.dashboard}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
           className={classNames(
@@ -446,7 +446,7 @@ function PlasmicDashboard__RenderFunc(props: {
             projectcss.plasmic_default_styles,
             projectcss.plasmic_mixins,
             projectcss.plasmic_tokens,
-            sty.root
+            sty.dashboard
           )}
         >
           <div
@@ -728,7 +728,7 @@ function PlasmicDashboard__RenderFunc(props: {
 
                     $steps["goToDashboard"] = true
                       ? (() => {
-                          const actionArgs = { destination: `/dashboard` };
+                          const actionArgs = { destination: `/` };
                           return (({ destination }) => {
                             if (
                               typeof destination === "string" &&
@@ -763,7 +763,7 @@ function PlasmicDashboard__RenderFunc(props: {
 
                       $steps["goToDashboard"] = true
                         ? (() => {
-                            const actionArgs = { destination: `/dashboard` };
+                            const actionArgs = { destination: `/` };
                             return (({ destination }) => {
                               if (
                                 typeof destination === "string" &&
@@ -3526,8 +3526,8 @@ function PlasmicDashboard__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: [
-    "root",
+  dashboard: [
+    "dashboard",
     "airlineDashboardOption77",
     "rectangle8271",
     "rectangle8274",
@@ -4851,7 +4851,7 @@ type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
-  root: "div";
+  dashboard: "div";
   airlineDashboardOption77: "div";
   rectangle8271: "div";
   rectangle8274: "div";
@@ -5179,7 +5179,7 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
       forNode: nodeName
     });
   };
-  if (nodeName === "root") {
+  if (nodeName === "dashboard") {
     func.displayName = "PlasmicDashboard";
   } else {
     func.displayName = `PlasmicDashboard.${nodeName}`;
@@ -5189,7 +5189,7 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
 
 export const PlasmicDashboard = Object.assign(
   // Top-level PlasmicDashboard renders the root element
-  makeNodeComponent("root"),
+  makeNodeComponent("dashboard"),
   {
     // Helper components rendering sub-elements
     airlineDashboardOption77: makeNodeComponent("airlineDashboardOption77"),
