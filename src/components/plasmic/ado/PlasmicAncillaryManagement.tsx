@@ -489,7 +489,7 @@ function PlasmicAncillaryManagement__RenderFunc(props: {
 
                     $steps["goToDashboard"] = true
                       ? (() => {
-                          const actionArgs = { destination: `/` };
+                          const actionArgs = { destination: `/dashboard` };
                           return (({ destination }) => {
                             if (
                               typeof destination === "string" &&
@@ -3187,7 +3187,7 @@ export const PlasmicAncillaryManagement = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "",
+      title: "Ancillary Management",
       description: "",
       ogImageSrc: "",
       canonical: ""

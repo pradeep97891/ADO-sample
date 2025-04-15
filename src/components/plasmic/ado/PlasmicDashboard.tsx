@@ -728,7 +728,7 @@ function PlasmicDashboard__RenderFunc(props: {
 
                     $steps["goToDashboard"] = true
                       ? (() => {
-                          const actionArgs = { destination: `/` };
+                          const actionArgs = { destination: `/dashboard` };
                           return (({ destination }) => {
                             if (
                               typeof destination === "string" &&
@@ -763,7 +763,7 @@ function PlasmicDashboard__RenderFunc(props: {
 
                       $steps["goToDashboard"] = true
                         ? (() => {
-                            const actionArgs = { destination: `/` };
+                            const actionArgs = { destination: `/dashboard` };
                             return (({ destination }) => {
                               if (
                                 typeof destination === "string" &&
@@ -810,7 +810,7 @@ function PlasmicDashboard__RenderFunc(props: {
 
                       $steps["goToAncillaryManagement"] = true
                         ? (() => {
-                            const actionArgs = { destination: `/new-page` };
+                            const actionArgs = { destination: `/ancillary` };
                             return (({ destination }) => {
                               if (
                                 typeof destination === "string" &&
@@ -5493,7 +5493,7 @@ export const PlasmicDashboard = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "",
+      title: "Dashboard",
       description: "",
       ogImageSrc: "",
       canonical: ""
