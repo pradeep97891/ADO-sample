@@ -1,0 +1,422 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "inlined",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "iBf2L8UFcY4A4kwPBejSLy",
+      "projectApiToken": "t5tt2jGZKE30W7Qe0gS1gDYYuee84OvUJLMoB6hKb4TI65nsT1eSsRGzTJK5gWMqxew99REkU4WM99vBrQ",
+      "projectName": "ADO",
+      "version": "latest",
+      "cssFilePath": "plasmic/ado/plasmic.module.css",
+      "components": [
+        {
+          "id": "wwGUa7uLPtKp",
+          "name": "Dashboard",
+          "type": "managed",
+          "projectId": "iBf2L8UFcY4A4kwPBejSLy",
+          "renderModuleFilePath": "plasmic/ado/PlasmicDashboard.tsx",
+          "importSpec": {
+            "modulePath": "Dashboard.tsx"
+          },
+          "cssFilePath": "plasmic/ado/PlasmicDashboard.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "H6kyB5PM528t",
+          "name": "AncillaryManagement",
+          "type": "managed",
+          "projectId": "iBf2L8UFcY4A4kwPBejSLy",
+          "renderModuleFilePath": "plasmic/ado/PlasmicAncillaryManagement.tsx",
+          "importSpec": {
+            "modulePath": "AncillaryManagement.tsx"
+          },
+          "cssFilePath": "plasmic/ado/PlasmicAncillaryManagement.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/new-page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "Qtsv5U7vbKgB",
+          "name": "Vector4Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Vector4.tsx"
+        },
+        {
+          "id": "qoBvK5PZZYPy",
+          "name": "Ellipse3230Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Ellipse3230.tsx"
+        },
+        {
+          "id": "6dM7wvuOmR3O",
+          "name": "Path47792Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Path47792.tsx"
+        },
+        {
+          "id": "usQJmt51qgJ9",
+          "name": "Path47793Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Path47793.tsx"
+        },
+        {
+          "id": "lJS0N-Pipkea",
+          "name": "Rectangle292Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Rectangle292.tsx"
+        },
+        {
+          "id": "trc_iGxnQqT6",
+          "name": "Group41599Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Group41599.tsx"
+        },
+        {
+          "id": "ISaVYJRFnJua",
+          "name": "Ellipse1880Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Ellipse1880.tsx"
+        },
+        {
+          "id": "e6yADDhsRkR1",
+          "name": "Ellipse1881Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Ellipse1881.tsx"
+        },
+        {
+          "id": "Zp_gDsbZQEd_",
+          "name": "Polygon122Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Polygon122.tsx"
+        },
+        {
+          "id": "8E8NCfc9eE7j",
+          "name": "Group47853Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Group47853.tsx"
+        },
+        {
+          "id": "iKWSGh6zEIpp",
+          "name": "Ellipse14Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Ellipse14.tsx"
+        },
+        {
+          "id": "WApLs5bNet-e",
+          "name": "Ellipse3232Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Ellipse3232.tsx"
+        },
+        {
+          "id": "aZ5LZISUoHqe",
+          "name": "Layout11Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Layout11.tsx"
+        },
+        {
+          "id": "7uow9fxVx6qz",
+          "name": "GroupIcon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Group.tsx"
+        },
+        {
+          "id": "SpLGwX0xc9TT",
+          "name": "Fd761A3509Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Fd761A3509.tsx"
+        },
+        {
+          "id": "cZU2euB0EKBb",
+          "name": "Group2Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Group2.tsx"
+        },
+        {
+          "id": "XHxH6QOjRlsk",
+          "name": "VectorIcon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Vector.tsx"
+        },
+        {
+          "id": "HoOgEX6t-LYf",
+          "name": "Vector2Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Vector2.tsx"
+        },
+        {
+          "id": "dibcQuFy-eqP",
+          "name": "Vector3Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Vector3.tsx"
+        },
+        {
+          "id": "QEgYkV0QggP3",
+          "name": "Vector5Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Vector5.tsx"
+        },
+        {
+          "id": "3-TjHlcNZu0l",
+          "name": "Vector6Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Vector6.tsx"
+        },
+        {
+          "id": "1PKqEBDdz_mU",
+          "name": "Vector7Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Vector7.tsx"
+        },
+        {
+          "id": "Rp0eizYi8jxL",
+          "name": "_81427E67DaIcon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon___81427E67Da.tsx"
+        },
+        {
+          "id": "h28gMR9NnTNn",
+          "name": "Group3Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Group3.tsx"
+        },
+        {
+          "id": "zKFQoEyvJHEf",
+          "name": "Vector8Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Vector8.tsx"
+        },
+        {
+          "id": "d3qJMwjPwFm7",
+          "name": "_099237605CIcon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon___099237605C.tsx"
+        },
+        {
+          "id": "y0s-vHB4j9JG",
+          "name": "Group4Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Group4.tsx"
+        },
+        {
+          "id": "xbkewKqvOuVb",
+          "name": "Vector9Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Vector9.tsx"
+        },
+        {
+          "id": "3uuLtZsqkxNl",
+          "name": "ChartBarIcon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__ChartBar.tsx"
+        },
+        {
+          "id": "37AWhCy1a_bF",
+          "name": "Group56958Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Group56958.tsx"
+        },
+        {
+          "id": "zDy12iYvNMPL",
+          "name": "FChatIcon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__FChat.tsx"
+        },
+        {
+          "id": "9At0xBkGfLcG",
+          "name": "Clip0245136Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Clip0245136.tsx"
+        },
+        {
+          "id": "oRAWA1Sjc5A7",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "0btBCtebbxsT",
+          "name": "CalendarIcon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Calendar.tsx"
+        },
+        {
+          "id": "FcE6coHSOPfG",
+          "name": "ChevronDownLargeIcon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__ChevronDownLarge.tsx"
+        },
+        {
+          "id": "Pcbj-hln4X1W",
+          "name": "Line445Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Line445.tsx"
+        },
+        {
+          "id": "3CIi1g509ap-",
+          "name": "Line446Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Line446.tsx"
+        },
+        {
+          "id": "ye5vvzA138RU",
+          "name": "EllipseIcon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Ellipse.tsx"
+        },
+        {
+          "id": "9z3SqAiMS4g2",
+          "name": "Ellipse2Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Ellipse2.tsx"
+        },
+        {
+          "id": "Aabqe-_bFRu8",
+          "name": "Ellipse3Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Ellipse3.tsx"
+        },
+        {
+          "id": "2SAJLGICfYvt",
+          "name": "Ellipse4Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Ellipse4.tsx"
+        },
+        {
+          "id": "LXIZKqCNgRSO",
+          "name": "Ellipse5Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Ellipse5.tsx"
+        },
+        {
+          "id": "u3fSd-KkU8W-",
+          "name": "Ellipse6Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Ellipse6.tsx"
+        },
+        {
+          "id": "sRpsvB0kRMn-",
+          "name": "Ellipse7Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Ellipse7.tsx"
+        },
+        {
+          "id": "3hl-v6J-cYXC",
+          "name": "Ellipse8Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Ellipse8.tsx"
+        },
+        {
+          "id": "Hqo-qfqCRQD1",
+          "name": "Ellipse9Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Ellipse9.tsx"
+        },
+        {
+          "id": "5XHd54ccFegV",
+          "name": "Ellipse10Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Ellipse10.tsx"
+        },
+        {
+          "id": "Z7xZMmeLX222",
+          "name": "Ellipse11Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Ellipse11.tsx"
+        },
+        {
+          "id": "3HyKnBcwojUW",
+          "name": "_03B5E9F825Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon___03B5E9F825.tsx"
+        },
+        {
+          "id": "FAsNTaIQPF8S",
+          "name": "Group6Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Group6.tsx"
+        },
+        {
+          "id": "wTFToLHSZb9f",
+          "name": "LineIcon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Line.tsx"
+        },
+        {
+          "id": "znogBDCFGrCm",
+          "name": "Line1848Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Line1848.tsx"
+        },
+        {
+          "id": "svW65RiPRJvF",
+          "name": "Group9Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Group9.tsx"
+        },
+        {
+          "id": "zJOWb0R-rU2V",
+          "name": "Group10Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Group10.tsx"
+        },
+        {
+          "id": "ectVQK-zvF68",
+          "name": "Frame56554Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Frame56554.tsx"
+        },
+        {
+          "id": "ld_FgPcgCaOi",
+          "name": "Line1849Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Line1849.tsx"
+        },
+        {
+          "id": "CMPwvp6S4TFY",
+          "name": "Line1847Icon",
+          "moduleFilePath": "plasmic/ado/icons/PlasmicIcon__Line1847.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "AZ4wgeRyCsPg",
+          "name": "image 2",
+          "filePath": "plasmic/ado/images/image2.png"
+        },
+        {
+          "id": "3Yh4UIhfyumK",
+          "name": "image 1",
+          "filePath": "plasmic/ado/images/image1.png"
+        },
+        {
+          "id": "tb5pmYSQi2-9",
+          "name": "notification (4)",
+          "filePath": "plasmic/ado/images/notification4.svg"
+        },
+        {
+          "id": "LGKBfrmeb-J6",
+          "name": "Group 5",
+          "filePath": "plasmic/ado/images/group5.svg"
+        },
+        {
+          "id": "NQkP0paPB1Km",
+          "name": "Group 7",
+          "filePath": "plasmic/ado/images/group7.svg"
+        },
+        {
+          "id": "NFf3pUQuKqKc",
+          "name": "Layout 12",
+          "filePath": "plasmic/ado/images/layout12.svg"
+        },
+        {
+          "id": "X4x3yKs2DpdE",
+          "name": "Group 8",
+          "filePath": "plasmic/ado/images/group8.svg"
+        },
+        {
+          "id": "nQgZkS83a2Tt",
+          "name": "Frame 1597882020",
+          "filePath": "plasmic/ado/images/frame1597882020.svg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "j3atT9rfCTru",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "8I2AugSfHfQD",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "YL7WgEetY2QT",
+        "name": "Screen",
+        "projectId": "iBf2L8UFcY4A4kwPBejSLy",
+        "contextFilePath": "plasmic/ado/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.337",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.337/dist/plasmic.schema.json"
+}
