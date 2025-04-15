@@ -1,10 +1,13 @@
-.dashboard {
+.root {
   display: grid;
+  flex-direction: column;
   position: relative;
   width: 100%;
   height: 100%;
   align-content: flex-start;
   justify-items: center;
+  justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   min-height: 0;
   grid-template-columns:
@@ -14,15 +17,9 @@
       calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
     )
     minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
-  padding: 0px;
 }
-.dashboard > * {
+.root > * {
   grid-column: 4;
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .dashboard > * {
-    grid-column: 4;
-  }
 }
 .airlineDashboardOption77 {
   background: rgba(248, 248, 248, 1);
@@ -64,7 +61,7 @@
   left: 325px;
   border-radius: 6px;
 }
-.svg__aQpa3 {
+.svg__jIdIm {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -78,7 +75,7 @@
   top: 928px;
   left: 977px;
 }
-.svg___2OZhN {
+.svg__iaY3J {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -92,7 +89,7 @@
   top: 970px;
   left: 785px;
 }
-.svg__gAf5W {
+.svg__o2V4S {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -106,7 +103,7 @@
   top: 1078px;
   left: 894px;
 }
-.svg__xE9Yw {
+.svg__qEdKf {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -120,7 +117,7 @@
   top: 1074px;
   left: 865px;
 }
-.svg__d86 {
+.svg__mRzCi {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -134,7 +131,7 @@
   top: 1063px;
   left: 844px;
 }
-.svg__vOt3W {
+.svg__kp4O3 {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -148,7 +145,7 @@
   top: 1061px;
   left: 938px;
 }
-.svg__cUi1G {
+.svg__myLSz {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -163,7 +160,7 @@
   top: 1061px;
   left: 939px;
 }
-.svg__eyVcn {
+.svg__mvm0H {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -177,7 +174,7 @@
   top: 1072px;
   left: 916px;
 }
-.svg__hJQq {
+.svg__xsPwQ {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -191,7 +188,7 @@
   top: 1080px;
   left: 961px;
 }
-.svg__o84R {
+.svg__hx99J {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -240,7 +237,7 @@
   > img {
   margin-left: 16px;
 }
-.text__nUfY9 {
+.text___94Aow {
   display: block;
   font-size: 12px;
   font-family: "Inter", sans-serif;
@@ -313,7 +310,7 @@
   top: 0px;
   left: 0px;
 }
-.svg__w1Ac {
+.svg___5I1Xw {
   object-fit: cover;
   max-width: 100%;
   color: #fab446;
@@ -324,7 +321,7 @@
   top: 0%;
   left: 0%;
 }
-.svg__q9L1 {
+.svg__ymtL {
   object-fit: cover;
   max-width: 100%;
   color: #73af00;
@@ -336,7 +333,7 @@
   top: 65.51%;
   left: 0%;
 }
-.svg__wFvvd {
+.svg__hmh3E {
   object-fit: cover;
   max-width: 100%;
   color: #f5f5f5;
@@ -348,7 +345,7 @@
   top: 34.48%;
   left: 0%;
 }
-.svg__iVFtn {
+.svg__eQrac {
   object-fit: cover;
   max-width: 100%;
   color: #41479b;
@@ -360,7 +357,7 @@
   top: 10px;
   left: 19px;
 }
-.svg__xVtXi {
+.svg__xVgsu {
   object-fit: cover;
   max-width: 100%;
   color: #f5f5f5;
@@ -372,7 +369,7 @@
   top: 48.27%;
   left: 48.97%;
 }
-.svg___1N8No {
+.svg__c1Chh {
   object-fit: cover;
   max-width: 100%;
   color: #41479b;
@@ -384,7 +381,7 @@
   top: 48.27%;
   left: 48.97%;
 }
-.text___0Bpy9 {
+.text__d5Lc3 {
   display: block;
   font-size: 13px;
   font-family: "Inter", sans-serif;
@@ -396,14 +393,14 @@
   width: 44px;
   flex-shrink: 0;
 }
-.freeBox__zKMjd {
+.freeBox__m1OD7 {
   display: block;
   position: relative;
   width: 7px;
   height: 5px;
   flex-shrink: 0;
 }
-.svg___8Zflv {
+.svg___15Phq {
   object-fit: cover;
   max-width: 100%;
   color: #133769;
@@ -416,7 +413,7 @@
   left: 7px;
   top: 5px;
 }
-.svg__ckq81 {
+.svg__miWhw {
   object-fit: cover;
   max-width: 100%;
   color: #133769;
@@ -433,7 +430,7 @@
   position: relative;
   flex-shrink: 0;
 }
-.svg__q1Isw {
+.svg__tEai3 {
   object-fit: cover;
   max-width: 100%;
   color: #fd9f27;
@@ -445,7 +442,7 @@
   top: 5.26%;
   left: 45.51%;
 }
-.img__ycnpK {
+.img__mrAc {
   object-fit: cover;
   max-width: 100%;
   width: 17.577041625976562px;
@@ -455,7 +452,7 @@
   top: 0px;
   left: 0px;
 }
-.img__ycnpK > picture > img {
+.img__mrAc > picture > img {
   object-fit: cover;
 }
 .frame56873 {
@@ -523,21 +520,21 @@
   > img {
   margin-left: 15px;
 }
-.text__sa8Y3 {
+.text__exdIc {
   display: block;
   font-size: undefinedpx;
   letter-spacing: 0em;
   color: rgba(0, 0, 0, 1);
   position: relative;
 }
-.freeBox__wSf08 {
+.freeBox___2Z89Z {
   display: block;
   position: relative;
   width: 7px;
   height: 5px;
   flex-shrink: 0;
 }
-.svg___6Ytz {
+.svg__x78Ap {
   object-fit: cover;
   max-width: 100%;
   color: #133769;
@@ -550,7 +547,7 @@
   left: 7px;
   top: 5px;
 }
-.text__hNkFq {
+.text__p86Rp {
   display: block;
   font-size: 32px;
   text-transform: uppercase;
@@ -610,7 +607,7 @@
   flex-shrink: 0;
   border-radius: 6px;
 }
-.text__zp9Sa {
+.text___5Dd1L {
   display: block;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
@@ -623,7 +620,7 @@
   left: 48px;
   width: 156px;
 }
-.svg__lkxZp {
+.svg__pjxGh {
   object-fit: cover;
   max-width: 100%;
   color: #fff;
@@ -682,7 +679,7 @@
   left: 48px;
   width: 156px;
 }
-.svg__dqVNh {
+.svg__lChdw {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -735,7 +732,7 @@
   -webkit-mask-size: 20px 24px;
   -webkit-mask-repeat: no-repeat;
 }
-.svg___9Covb {
+.svg__inkJl {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -747,7 +744,7 @@
   top: 0px;
   left: 0px;
 }
-.svg__bSLA {
+.svg__d1MIm {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -759,7 +756,7 @@
   top: 70.83%;
   left: 20%;
 }
-.svg__ys8Dh {
+.svg__mdccp {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -771,7 +768,7 @@
   top: 58.33%;
   left: 20%;
 }
-.svg___32Ctx {
+.svg__trbmL {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -814,7 +811,7 @@
   top: 8px;
   left: 16px;
 }
-.svg___2JuA3 {
+.svg__wmYrw {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -826,7 +823,7 @@
   top: 29.16%;
   left: 9.09%;
 }
-.svg__viiur {
+.svg__uc6Lj {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -838,7 +835,7 @@
   top: 29.16%;
   left: 36.36%;
 }
-.svg__eiEe0 {
+.svg__drqT {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -850,7 +847,7 @@
   top: 37.5%;
   left: 36.36%;
 }
-.svg___9YWdy {
+.svg__c5XBn {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -862,7 +859,7 @@
   top: 50%;
   left: 9.09%;
 }
-.svg__ite5V {
+.svg__b07Qx {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -874,7 +871,7 @@
   top: 50%;
   left: 36.36%;
 }
-.svg__reYTc {
+.svg__nggM {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -897,7 +894,7 @@
   -webkit-mask-size: 22px 24px;
   -webkit-mask-repeat: no-repeat;
 }
-.svg___5HnhJ {
+.svg__ueZKh {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -908,7 +905,7 @@
   top: 0px;
   left: 0px;
 }
-.svg__n0Vs {
+.svg__qz12T {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -932,7 +929,7 @@
   -webkit-mask-size: 1.1799136400222778px 1.3922016620635986px;
   -webkit-mask-repeat: no-repeat;
 }
-.svg__vlYn {
+.svg___7T3Lb {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -984,7 +981,7 @@
   top: 0px;
   left: 1px;
 }
-.svg__wGyUu {
+.svg___6UbM {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -996,7 +993,7 @@
   top: 29.16%;
   left: 9.09%;
 }
-.svg__w4Zqd {
+.svg__i5Iqg {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -1008,7 +1005,7 @@
   top: 29.16%;
   left: 36.36%;
 }
-.svg__kihHc {
+.svg___0Ng {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -1020,7 +1017,7 @@
   top: 37.5%;
   left: 36.36%;
 }
-.svg__nJnG {
+.svg__wV8Z {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -1032,7 +1029,7 @@
   top: 50%;
   left: 9.09%;
 }
-.svg__rm5J3 {
+.svg___6NxMy {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -1044,7 +1041,7 @@
   top: 50%;
   left: 36.36%;
 }
-.svg___9S4Q4 {
+.svg__oOJq {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -1067,7 +1064,7 @@
   -webkit-mask-size: 22px 24px;
   -webkit-mask-repeat: no-repeat;
 }
-.svg__wQjJy {
+.svg__tkk5F {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -1078,7 +1075,7 @@
   top: 0px;
   left: 0px;
 }
-.svg__ipQDc {
+.svg__hk2Cb {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -1102,7 +1099,7 @@
   -webkit-mask-size: 1.1799136400222778px 1.3922016620635986px;
   -webkit-mask-repeat: no-repeat;
 }
-.svg__nYw5 {
+.svg__b8Iws {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -1137,7 +1134,7 @@
   left: 48px;
   width: 156px;
 }
-.svg__xyVHf {
+.svg___3PLyz {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -1171,7 +1168,7 @@
   left: 48px;
   width: 156px;
 }
-.svg__aDq5Z {
+.svg__yqf6K {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -1206,7 +1203,7 @@
   left: 48px;
   width: 156px;
 }
-.svg___4Wt9V {
+.svg___23YTj {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -1227,7 +1224,7 @@
   flex-shrink: 0;
   border-radius: 6px;
 }
-.svg__nrbE {
+.svg__uUzVo {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;
@@ -1263,7 +1260,7 @@
   -webkit-mask-size: 123px 49.9027214050293px;
   -webkit-mask-repeat: no-repeat;
 }
-.img__mZdsO {
+.img__s6DWf {
   object-fit: cover;
   max-width: 100%;
   width: 122.87733459472656px;
@@ -1273,7 +1270,7 @@
   top: 0px;
   left: 0px;
 }
-.img__mZdsO > picture > img {
+.img__s6DWf > picture > img {
   object-fit: cover;
 }
 .container24 {
@@ -1673,7 +1670,7 @@
   position: relative;
   flex-shrink: 0;
 }
-.svg___1GMc {
+.svg__zo0Zs {
   object-fit: cover;
   max-width: 100%;
   color: #0faf62;
@@ -1685,7 +1682,7 @@
   top: 23.45%;
   left: 28.14%;
 }
-.text__vrdel {
+.text__yYkOu {
   display: block;
   font-size: 12.435294151306152px;
   font-family: "Poppins", sans-serif;
@@ -1711,7 +1708,7 @@
   position: relative;
   flex-shrink: 0;
 }
-.svg__qWaU {
+.svg___7JdVa {
   object-fit: cover;
   max-width: 100%;
   color: #0faf62;
@@ -1723,7 +1720,7 @@
   top: 23.45%;
   left: 28.14%;
 }
-.text__m0MSj {
+.text__fyLdu {
   display: block;
   font-size: 12.435294151306152px;
   font-family: "Poppins", sans-serif;
@@ -1749,7 +1746,7 @@
   position: relative;
   flex-shrink: 0;
 }
-.svg__pDpyi {
+.svg__pnvU9 {
   object-fit: cover;
   max-width: 100%;
   color: #0faf62;
@@ -1761,7 +1758,7 @@
   top: 23.45%;
   left: 28.14%;
 }
-.text___2TmiS {
+.text__fsbNu {
   display: block;
   font-size: 12.435294151306152px;
   font-family: "Poppins", sans-serif;
@@ -2353,7 +2350,7 @@
   > img {
   margin-top: 5px;
 }
-.freeBox___0G7Ca {
+.freeBox__jqx7E {
   display: block;
   position: relative;
   width: 270px;
@@ -2384,7 +2381,7 @@
   flex-shrink: 0;
   border-radius: 4px;
 }
-.text__meMnm {
+.text___47Qw {
   display: block;
   font-size: 12px;
   font-family: "Inter", sans-serif;
@@ -2397,7 +2394,7 @@
   left: 24px;
   right: 25px;
 }
-.svg__wSTi5 {
+.svg__dqGe2 {
   object-fit: cover;
   max-width: 100%;
   color: #171a1f;
@@ -2409,7 +2406,7 @@
   left: 8px;
   overflow: hidden;
 }
-.svg__jmPW {
+.svg__kCrrV {
   object-fit: cover;
   max-width: 100%;
   color: #171a1f;
@@ -2681,7 +2678,7 @@
   left: 710px;
   border-radius: 6px;
 }
-.svg__sPStG {
+.svg__iotkk {
   object-fit: cover;
   max-width: 100%;
   color: #dfdfdf;
@@ -2723,7 +2720,7 @@
   > img {
   margin-top: 47px;
 }
-.text__kA4Nb {
+.text__w72 {
   display: block;
   font-size: 10px;
   font-family: "Public Sans", sans-serif;
@@ -2733,7 +2730,7 @@
   color: rgba(0, 0, 0, 1);
   position: relative;
 }
-.text__tt26C {
+.text___8S09J {
   display: block;
   font-size: 10px;
   font-family: "Public Sans", sans-serif;
@@ -2743,7 +2740,7 @@
   color: rgba(0, 0, 0, 1);
   position: relative;
 }
-.text__zLkPd {
+.text___9Hp2P {
   display: block;
   font-size: 10px;
   font-family: "Public Sans", sans-serif;
@@ -2753,7 +2750,7 @@
   color: rgba(0, 0, 0, 1);
   position: relative;
 }
-.svg__lFvC4 {
+.svg__mkUuW {
   object-fit: cover;
   max-width: 100%;
   color: #dfdfdf;
@@ -2768,7 +2765,7 @@
   top: 1973px;
   left: 1229px;
 }
-.text__qEkik {
+.text__nsJ9 {
   display: block;
   font-size: 10px;
   font-family: "Public Sans", sans-serif;
@@ -2784,7 +2781,7 @@
     translate(-0.4744873046875px, 0px);
   transform-origin: top left;
 }
-.text__kQz5X {
+.text__taD5V {
   display: block;
   font-size: 10px;
   font-family: "Public Sans", sans-serif;
@@ -2800,7 +2797,7 @@
     translate(-0.4744873046875px, 0px);
   transform-origin: top left;
 }
-.text___4SpNi {
+.text__mgwwn {
   display: block;
   font-size: 10px;
   font-family: "Public Sans", sans-serif;
@@ -2816,7 +2813,7 @@
     translate(-0.4744873046875px, 0px);
   transform-origin: top left;
 }
-.text__cyTxd {
+.text__w27Bc {
   display: block;
   font-size: 10px;
   font-family: "Public Sans", sans-serif;
@@ -2832,7 +2829,7 @@
     translate(-0.4744873046875px, 0px);
   transform-origin: top left;
 }
-.text__s9BZ {
+.text___7Pho {
   display: block;
   font-size: 10px;
   font-family: "Public Sans", sans-serif;
@@ -2848,7 +2845,7 @@
     translate(-0.4744873046875px, 0px);
   transform-origin: top left;
 }
-.text__wpjfA {
+.text__uQ4P {
   display: block;
   font-size: 10px;
   font-family: "Public Sans", sans-serif;
@@ -2864,7 +2861,7 @@
     translate(-0.4744873046875px, 0px);
   transform-origin: top left;
 }
-.text__p0G6K {
+.text__iFpqN {
   display: block;
   font-size: 10px;
   font-family: "Public Sans", sans-serif;
@@ -2880,7 +2877,7 @@
     translate(-0.438232421875px, 0px);
   transform-origin: top left;
 }
-.text__ssfvd {
+.text__ff5Vs {
   display: block;
   font-size: 10px;
   font-family: "Public Sans", sans-serif;
@@ -3247,7 +3244,7 @@
   > img {
   margin-top: 5px;
 }
-.freeBox__ix3Av {
+.freeBox__ejMx1 {
   display: block;
   position: relative;
   width: 275px;
@@ -3278,7 +3275,7 @@
   flex-shrink: 0;
   border-radius: 4px;
 }
-.text__pRchn {
+.text__r0KeG {
   display: block;
   font-size: 12px;
   font-family: "Inter", sans-serif;
@@ -3291,7 +3288,7 @@
   left: 24px;
   right: 25px;
 }
-.svg__pcKlm {
+.svg__o5Cap {
   object-fit: cover;
   max-width: 100%;
   color: #171a1f;
@@ -3303,7 +3300,7 @@
   left: 8px;
   overflow: hidden;
 }
-.svg__nstFi {
+.svg__ghZnX {
   object-fit: cover;
   max-width: 100%;
   color: #171a1f;
@@ -3315,7 +3312,7 @@
   right: 7px;
   overflow: hidden;
 }
-.text__m6Lls {
+.text__kp0Ae {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -3339,7 +3336,7 @@
   top: 1281px;
   left: 349px;
 }
-.svg___3Wfu9 {
+.svg__gzGy2 {
   object-fit: cover;
   max-width: 100%;
   color: #0d666e;
@@ -3351,7 +3348,7 @@
   top: 63.9%;
   left: 25.54%;
 }
-.svg__juLz {
+.svg___4K2Zw {
   object-fit: cover;
   max-width: 100%;
   color: #d6d6d6;
@@ -3363,7 +3360,7 @@
   top: 63.9%;
   left: 25.54%;
 }
-.svg__hjKSj {
+.svg__eEj29 {
   object-fit: cover;
   max-width: 100%;
   color: #f29c03;
@@ -3375,7 +3372,7 @@
   top: 64.51%;
   left: 26.57%;
 }
-.svg___7Ue3F {
+.svg__hd1Qh {
   object-fit: cover;
   max-width: 100%;
   color: #d6d6d6;
@@ -3387,7 +3384,7 @@
   top: 64.51%;
   left: 26.57%;
 }
-.svg__n6V53 {
+.svg___5A8Tg {
   object-fit: cover;
   max-width: 100%;
   color: #9ec2c5;
@@ -3399,7 +3396,7 @@
   top: 65.12%;
   left: 27.45%;
 }
-.svg__spFYd {
+.svg__kmz0N {
   object-fit: cover;
   max-width: 100%;
   color: #d6d6d6;
@@ -3419,7 +3416,7 @@
   top: 1390px;
   left: 540px;
 }
-.svg__hmRqw {
+.svg__o6B {
   object-fit: cover;
   max-width: 100%;
   color: #9ec2c5;
@@ -3450,7 +3447,7 @@
   top: 1428px;
   left: 540px;
 }
-.svg__hvKip {
+.svg__dmvUd {
   object-fit: cover;
   max-width: 100%;
   color: #0d666e;
@@ -3481,7 +3478,7 @@
   top: 1466px;
   left: 540px;
 }
-.svg___0Oo5F {
+.svg__rlKtF {
   object-fit: cover;
   max-width: 100%;
   color: #f29c03;
@@ -3674,7 +3671,7 @@
   > img {
   margin-top: 5px;
 }
-.freeBox__tj3Gu {
+.freeBox__hFtao {
   display: block;
   position: relative;
   width: 198px;
@@ -3718,7 +3715,7 @@
   left: 24px;
   right: 30px;
 }
-.svg__gLo8O {
+.svg__mw01V {
   object-fit: cover;
   max-width: 100%;
   color: #171a1f;
@@ -3730,7 +3727,7 @@
   left: 8px;
   overflow: hidden;
 }
-.svg__a2Vu {
+.svg__zi7Il {
   object-fit: cover;
   max-width: 100%;
   color: #171a1f;
@@ -3768,7 +3765,7 @@
   > img {
   margin-top: 5px;
 }
-.freeBox__vcSpx {
+.freeBox__nejWp {
   display: block;
   position: relative;
   width: 198px;
@@ -3812,7 +3809,7 @@
   left: 24px;
   right: 30px;
 }
-.svg__lZbrQ {
+.svg__cpecw {
   object-fit: cover;
   max-width: 100%;
   color: #171a1f;
@@ -3824,7 +3821,7 @@
   left: 8px;
   overflow: hidden;
 }
-.svg___17FQz {
+.svg__gX5Gi {
   object-fit: cover;
   max-width: 100%;
   color: #171a1f;
@@ -3836,7 +3833,7 @@
   right: 7px;
   overflow: hidden;
 }
-.svg__mpFZb {
+.svg___02YmI {
   object-fit: cover;
   max-width: 100%;
   color: #0d666e;
@@ -3847,7 +3844,7 @@
   top: 43.05%;
   left: 59.29%;
 }
-.svg___4U7Sf {
+.svg__zPhr {
   object-fit: cover;
   max-width: 100%;
   color: #d6d6d6;
@@ -3858,7 +3855,7 @@
   top: 43.05%;
   left: 59.29%;
 }
-.svg__owNlp {
+.svg__cM1B2 {
   object-fit: cover;
   max-width: 100%;
   color: #9ec2c5;
@@ -3869,7 +3866,7 @@
   top: 43.05%;
   left: 59.29%;
 }
-.svg__hutFe {
+.svg__naCp4 {
   object-fit: cover;
   max-width: 100%;
   color: #f29c03;
@@ -3913,7 +3910,7 @@
   position: relative;
   flex-shrink: 0;
 }
-.svg__vqFll {
+.svg__bcBpe {
   object-fit: cover;
   max-width: 100%;
   color: #0d666e;
@@ -3944,7 +3941,7 @@
   position: relative;
   flex-shrink: 0;
 }
-.svg__nw9E9 {
+.svg___07FAu {
   object-fit: cover;
   max-width: 100%;
   color: #ff6a6c;
@@ -3975,7 +3972,7 @@
   position: relative;
   flex-shrink: 0;
 }
-.svg___8RaHg {
+.svg__lrQOw {
   object-fit: cover;
   max-width: 100%;
   color: #f29c03;
@@ -4006,7 +4003,7 @@
   position: relative;
   flex-shrink: 0;
 }
-.svg__rnVGz {
+.svg__jgg6M {
   object-fit: cover;
   max-width: 100%;
   color: #d6d6d6;
@@ -4037,7 +4034,7 @@
   position: relative;
   flex-shrink: 0;
 }
-.svg__lthog {
+.svg__bkr0V {
   object-fit: cover;
   max-width: 100%;
   color: #7d6d12;
@@ -4068,7 +4065,7 @@
   position: relative;
   flex-shrink: 0;
 }
-.svg__dnhbP {
+.svg__zWmpk {
   object-fit: cover;
   max-width: 100%;
   color: #9ec2c5;
@@ -4099,7 +4096,7 @@
   position: relative;
   flex-shrink: 0;
 }
-.svg__tlLdu {
+.svg__hv2Bs {
   object-fit: cover;
   max-width: 100%;
   color: #e58f14;
@@ -4130,7 +4127,7 @@
   position: relative;
   flex-shrink: 0;
 }
-.svg__dR33Z {
+.svg__mV2Ej {
   object-fit: cover;
   max-width: 100%;
   color: #0d3b32;
@@ -4161,7 +4158,7 @@
   position: relative;
   flex-shrink: 0;
 }
-.svg__w0Agg {
+.svg___92MVm {
   object-fit: cover;
   max-width: 100%;
   color: #d61f6f;
@@ -4528,7 +4525,7 @@
   -webkit-mask-repeat: no-repeat;
   flex-shrink: 0;
 }
-.svg__uixjf {
+.svg__hwn2A {
   object-fit: cover;
   max-width: 100%;
   color: #fd7e14;
@@ -4579,7 +4576,7 @@
   flex-shrink: 0;
   border-radius: 2px;
 }
-.svg__kFjuv {
+.svg__hh1UX {
   object-fit: cover;
   max-width: 100%;
   color: #e8e8e8;
@@ -4682,7 +4679,7 @@
   -webkit-mask-repeat: no-repeat;
   flex-shrink: 0;
 }
-.svg__jQsTd {
+.svg___3Th5 {
   object-fit: cover;
   max-width: 100%;
   color: #fd7e14;
@@ -4733,7 +4730,7 @@
   flex-shrink: 0;
   border-radius: 2px;
 }
-.svg__zcam2 {
+.svg__oWyBw {
   object-fit: cover;
   max-width: 100%;
   color: #e8e8e8;
@@ -4836,7 +4833,7 @@
   -webkit-mask-repeat: no-repeat;
   flex-shrink: 0;
 }
-.svg__tpy1H {
+.svg__hZbxF {
   object-fit: cover;
   max-width: 100%;
   color: #fd7e14;
@@ -4887,7 +4884,7 @@
   flex-shrink: 0;
   border-radius: 2px;
 }
-.svg___9U7QW {
+.svg__wqp1T {
   object-fit: cover;
   max-width: 100%;
   color: #e8e8e8;
@@ -4990,7 +4987,7 @@
   -webkit-mask-repeat: no-repeat;
   flex-shrink: 0;
 }
-.svg__hrVcu {
+.svg__yaRou {
   object-fit: cover;
   max-width: 100%;
   color: #fd7e14;
@@ -5041,7 +5038,7 @@
   flex-shrink: 0;
   border-radius: 2px;
 }
-.svg__u7Dzi {
+.svg__tsJ7O {
   object-fit: cover;
   max-width: 100%;
   color: #e8e8e8;
@@ -5092,7 +5089,7 @@
   left: 1297px;
   border-radius: 6px;
 }
-.svg___6Xmde {
+.svg__rnI76 {
   object-fit: cover;
   max-width: 100%;
   color: #565d6d;

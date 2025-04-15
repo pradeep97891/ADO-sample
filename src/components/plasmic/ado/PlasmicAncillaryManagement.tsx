@@ -489,7 +489,7 @@ function PlasmicAncillaryManagement__RenderFunc(props: {
 
                     $steps["goToDashboard"] = true
                       ? (() => {
-                          const actionArgs = { destination: `/` };
+                          const actionArgs = {};
                           return (({ destination }) => {
                             if (
                               typeof destination === "string" &&
